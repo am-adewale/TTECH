@@ -417,7 +417,7 @@ body {
 
 /* Contact Form */
 .contact-form {
-  background-color: lightgray;
+  background-color: rgb(238, 237, 237);
   padding: 2rem;
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
