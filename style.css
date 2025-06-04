@@ -454,6 +454,10 @@ input, select, textarea {
   transition: var(--transition);
 }
 
+input::placeholder{
+  color: rgb(38, 38, 38);
+}
+
 input:focus, select:focus, textarea:focus {
   outline: none;
   border-color: var(--primary);
