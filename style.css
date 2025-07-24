@@ -107,16 +107,21 @@ body {
 }
 
 .drop-cont{
-  width: 40vh;
-  height: 33vh;
+  width: 33vh;
+  height: 30vh;
+  display: block;
+  align-content: center;
+  justify-items: center;
   background: rgb(239, 238, 238);
   border-radius: 8%;
-  padding: 2rem 1rem;
+  padding: 1rem 0.5rem;
+  line-height: 30px;
 }
 
 .h5tag{
   font-family: sans-serif;
-  font-size: 12px;
+  font-size: 15px;
+
 }
 
 .rev{
@@ -125,12 +130,15 @@ body {
 }
 
 .guide{
+  display: flex;
+  justify-content: center;
   margin-top: 0.5rem;
   padding: 0.3rem 0.8rem;
   border-radius: 5rem;
   border: none;
   background: #0056b3;
   color: white;
+  font-family: sans-serif;
 }
 
 .guide:hover{
@@ -649,8 +657,8 @@ textarea {
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-10px); }
-  to { opacity: 1; transform: translateY(0); }
+  from { opacity: 0; transform: translateX(-50%) translateY(-10px); }
+  to { opacity: 1; transform: translateX(-50%) translateY(0); }
 }
 
 @keyframes fadeOut {
