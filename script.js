@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function() {
     countrySelect.appendChild(option);
   });
   
-  // Close dropdowns when clicking outside on desktop
+  
   document.addEventListener('click', function(e) {
     if (window.innerWidth > 992) {
       if (!e.target.closest('.dropdown')) {
